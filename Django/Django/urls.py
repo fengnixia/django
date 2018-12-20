@@ -20,4 +20,5 @@ from django.urls import include
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^user/', include('user.urls')),
+    url(r'^grade/', include('user.urls')),
 ]
